@@ -7,10 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyMainTabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.delegate = self
+        
+        self.selectedIndex = 2
         // Do any additional setup after loading the view.
     }
 

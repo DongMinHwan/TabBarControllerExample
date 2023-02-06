@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E9DD1C889D4381F3363D49 /* Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADAAE0B2888E75659E56F6F /* Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework */; };
+		4D18EAF638CCA1C62D9CE13B /* Pods_TabBarControllerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5989D2861E55987E3D654F /* Pods_TabBarControllerExample.framework */; };
+		78D0BA83109F59CAE0962417 /* Pods_TabBarControllerExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3527C64096EC826C9C2B0D46 /* Pods_TabBarControllerExampleTests.framework */; };
 		7F376F31295BCFF7001154A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F30295BCFF7001154A7 /* AppDelegate.swift */; };
 		7F376F33295BCFF7001154A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F32295BCFF7001154A7 /* SceneDelegate.swift */; };
-		7F376F35295BCFF7001154A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F34295BCFF7001154A7 /* ViewController.swift */; };
+		7F376F35295BCFF7001154A7 /* MyMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F34295BCFF7001154A7 /* MyMainTabBarController.swift */; };
 		7F376F38295BCFF7001154A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F376F36295BCFF7001154A7 /* Main.storyboard */; };
 		7F376F3A295BCFF8001154A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F376F39295BCFF8001154A7 /* Assets.xcassets */; };
 		7F376F3D295BCFF8001154A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F376F3B295BCFF8001154A7 /* LaunchScreen.storyboard */; };
 		7F376F48295BCFF8001154A7 /* TabBarControllerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F47295BCFF8001154A7 /* TabBarControllerExampleTests.swift */; };
 		7F376F52295BCFF8001154A7 /* TabBarControllerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F51295BCFF8001154A7 /* TabBarControllerExampleUITests.swift */; };
 		7F376F54295BCFF8001154A7 /* TabBarControllerExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376F53295BCFF8001154A7 /* TabBarControllerExampleUITestsLaunchTests.swift */; };
+		7F85FAEF295BF5150039A7E8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAEE295BF5150039A7E8 /* HomeVC.swift */; };
+		7F85FAF1295BF87C0039A7E8 /* PickCasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAF0295BF87C0039A7E8 /* PickCasterVC.swift */; };
+		7F85FAF6295BFA9E0039A7E8 /* SnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAF5295BFA9E0039A7E8 /* SnsVC.swift */; };
+		7F85FAF8295BFAAF0039A7E8 /* MyPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAF7295BFAAF0039A7E8 /* MyPageVC.swift */; };
+		7F85FAFA295BFB300039A7E8 /* LatestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAF9295BFB300039A7E8 /* LatestVC.swift */; };
+		7F85FB00295BFD1B0039A7E8 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FAFF295BFD1B0039A7E8 /* LaunchScreenVC.swift */; };
+		7F85FB03295C006B0039A7E8 /* splashes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FB02295C006B0039A7E8 /* splashes.gif */; };
+		7F85FB05295C00740039A7E8 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FB04295C00740039A7E8 /* loading.gif */; };
+		7F85FB08295C03BA0039A7E8 /* QConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FB07295C03BA0039A7E8 /* QConstant.swift */; };
+		7F85FB0B295C050E0039A7E8 /* UI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85FB0A295C050E0039A7E8 /* UI_Extension.swift */; };
+		7F85FB502962ADB00039A7E8 /* CheckSelect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FB4D2962ADB00039A7E8 /* CheckSelect@3x.png */; };
+		7F85FB512962ADB00039A7E8 /* CheckSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FB4E2962ADB00039A7E8 /* CheckSelect@2x.png */; };
+		7F85FB522962ADB00039A7E8 /* CheckSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FB4F2962ADB00039A7E8 /* CheckSelect.png */; };
+		7FA157CE298CF78A004B6383 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157CD298CF78A004B6383 /* LocationManager.swift */; };
+		7FA157D1298D0165004B6383 /* QpickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157D0298D0164004B6383 /* QpickView.swift */; };
+		7FA157D629908C3E004B6383 /* PickCastQpickCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157D529908C3E004B6383 /* PickCastQpickCell.swift */; };
+		7FA157DA2990C6B4004B6383 /* PickCastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157D92990C6B4004B6383 /* PickCastModel.swift */; };
+		7FA157DC2990C75E004B6383 /* PickCastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157DB2990C75E004B6383 /* PickCastInfo.swift */; };
+		7FA157DE2990C862004B6383 /* ImgesFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157DD2990C862004B6383 /* ImgesFileInfo.swift */; };
+		7FA157E02990C8CE004B6383 /* PickCastInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157DF2990C8CE004B6383 /* PickCastInfoList.swift */; };
+		7FA157E32990C92D004B6383 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157E22990C92D004B6383 /* Request.swift */; };
+		7FA157E52990C95C004B6383 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157E42990C95C004B6383 /* Constant.swift */; };
+		7FA157E72990CC6D004B6383 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157E62990CC6D004B6383 /* ErrorModel.swift */; };
+		7FA157E92990CD7D004B6383 /* PickCastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157E82990CD7D004B6383 /* PickCastService.swift */; };
+		7FA157EB2990CE96004B6383 /* QpickDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157EA2990CE96004B6383 /* QpickDecoder.swift */; };
+		7FA157ED2990D168004B6383 /* PickCastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157EC2990D168004B6383 /* PickCastViewModel.swift */; };
+		7FA157EF2990F2E3004B6383 /* PickCastModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA157EE2990F2E3004B6383 /* PickCastModel2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +66,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDCA981A7AE43169A8A0538 /* Pods-TabBarControllerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExample.debug.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExample/Pods-TabBarControllerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6B0A6738A6B6A1A917239F /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExample-TabBarControllerExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExample-TabBarControllerExampleUITests/Pods-TabBarControllerExample-TabBarControllerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3527C64096EC826C9C2B0D46 /* Pods_TabBarControllerExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarControllerExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D94FD5314EC6D849CE9A983 /* Pods-TabBarControllerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExample.release.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExample/Pods-TabBarControllerExample.release.xcconfig"; sourceTree = "<group>"; };
+		5644EE3245B5E52CADD6FAD1 /* Pods-TabBarControllerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExampleTests/Pods-TabBarControllerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F376F2D295BCFF7001154A7 /* TabBarControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F376F30295BCFF7001154A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F376F32295BCFF7001154A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F376F34295BCFF7001154A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F376F34295BCFF7001154A7 /* MyMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMainTabBarController.swift; sourceTree = "<group>"; };
 		7F376F37295BCFF7001154A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F376F39295BCFF8001154A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F376F3C295BCFF8001154A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,37 @@
 		7F376F4D295BCFF8001154A7 /* TabBarControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F376F51295BCFF8001154A7 /* TabBarControllerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerExampleUITests.swift; sourceTree = "<group>"; };
 		7F376F53295BCFF8001154A7 /* TabBarControllerExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F85FAEE295BF5150039A7E8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7F85FAF0295BF87C0039A7E8 /* PickCasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCasterVC.swift; sourceTree = "<group>"; };
+		7F85FAF5295BFA9E0039A7E8 /* SnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnsVC.swift; sourceTree = "<group>"; };
+		7F85FAF7295BFAAF0039A7E8 /* MyPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageVC.swift; sourceTree = "<group>"; };
+		7F85FAF9295BFB300039A7E8 /* LatestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestVC.swift; sourceTree = "<group>"; };
+		7F85FAFF295BFD1B0039A7E8 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		7F85FB02295C006B0039A7E8 /* splashes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splashes.gif; sourceTree = "<group>"; };
+		7F85FB04295C00740039A7E8 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		7F85FB07295C03BA0039A7E8 /* QConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QConstant.swift; sourceTree = "<group>"; };
+		7F85FB0A295C050E0039A7E8 /* UI_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Extension.swift; sourceTree = "<group>"; };
+		7F85FB4D2962ADB00039A7E8 /* CheckSelect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CheckSelect@3x.png"; sourceTree = "<group>"; };
+		7F85FB4E2962ADB00039A7E8 /* CheckSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CheckSelect@2x.png"; sourceTree = "<group>"; };
+		7F85FB4F2962ADB00039A7E8 /* CheckSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckSelect.png; sourceTree = "<group>"; };
+		7FA157CD298CF78A004B6383 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7FA157D0298D0164004B6383 /* QpickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QpickView.swift; sourceTree = "<group>"; };
+		7FA157D529908C3E004B6383 /* PickCastQpickCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastQpickCell.swift; sourceTree = "<group>"; };
+		7FA157D92990C6B4004B6383 /* PickCastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastModel.swift; sourceTree = "<group>"; };
+		7FA157DB2990C75E004B6383 /* PickCastInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastInfo.swift; sourceTree = "<group>"; };
+		7FA157DD2990C862004B6383 /* ImgesFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgesFileInfo.swift; sourceTree = "<group>"; };
+		7FA157DF2990C8CE004B6383 /* PickCastInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastInfoList.swift; sourceTree = "<group>"; };
+		7FA157E22990C92D004B6383 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7FA157E42990C95C004B6383 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7FA157E62990CC6D004B6383 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		7FA157E82990CD7D004B6383 /* PickCastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastService.swift; sourceTree = "<group>"; };
+		7FA157EA2990CE96004B6383 /* QpickDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QpickDecoder.swift; sourceTree = "<group>"; };
+		7FA157EC2990D168004B6383 /* PickCastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastViewModel.swift; sourceTree = "<group>"; };
+		7FA157EE2990F2E3004B6383 /* PickCastModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCastModel2.swift; sourceTree = "<group>"; };
+		C768B3214633D44B30F1844E /* Pods-TabBarControllerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExampleTests.release.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExampleTests/Pods-TabBarControllerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CADAAE0B2888E75659E56F6F /* Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AD9BACF65796BF1C7B94B7 /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerExample-TabBarControllerExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-TabBarControllerExample-TabBarControllerExampleUITests/Pods-TabBarControllerExample-TabBarControllerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF5989D2861E55987E3D654F /* Pods_TabBarControllerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarControllerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D18EAF638CCA1C62D9CE13B /* Pods_TabBarControllerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D0BA83109F59CAE0962417 /* Pods_TabBarControllerExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E9DD1C889D4381F3363D49 /* Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B98F71244B96EBB9E439CCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCA981A7AE43169A8A0538 /* Pods-TabBarControllerExample.debug.xcconfig */,
+				3D94FD5314EC6D849CE9A983 /* Pods-TabBarControllerExample.release.xcconfig */,
+				2C6B0A6738A6B6A1A917239F /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.debug.xcconfig */,
+				F9AD9BACF65796BF1C7B94B7 /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.release.xcconfig */,
+				5644EE3245B5E52CADD6FAD1 /* Pods-TabBarControllerExampleTests.debug.xcconfig */,
+				C768B3214633D44B30F1844E /* Pods-TabBarControllerExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7F376F24295BCFF7001154A7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +165,8 @@
 				7F376F46295BCFF8001154A7 /* TabBarControllerExampleTests */,
 				7F376F50295BCFF8001154A7 /* TabBarControllerExampleUITests */,
 				7F376F2E295BCFF7001154A7 /* Products */,
+				7B98F71244B96EBB9E439CCA /* Pods */,
+				A3873C27346C95C4C86F20EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +183,14 @@
 		7F376F2F295BCFF7001154A7 /* TabBarControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				7F85FB09295C04FA0039A7E8 /* Extension */,
+				7F85FB06295C03A70039A7E8 /* Utils */,
+				7F85FAF2295BF9FD0039A7E8 /* ViewController */,
+				7F85FB01295C002F0039A7E8 /* Resource */,
 				7F376F30295BCFF7001154A7 /* AppDelegate.swift */,
+				7F85FAF4295BFA220039A7E8 /* View */,
 				7F376F32295BCFF7001154A7 /* SceneDelegate.swift */,
-				7F376F34295BCFF7001154A7 /* ViewController.swift */,
-				7F376F36295BCFF7001154A7 /* Main.storyboard */,
 				7F376F39295BCFF8001154A7 /* Assets.xcassets */,
-				7F376F3B295BCFF8001154A7 /* LaunchScreen.storyboard */,
 				7F376F3E295BCFF8001154A7 /* Info.plist */,
 			);
 			path = TabBarControllerExample;
@@ -127,6 +213,137 @@
 			path = TabBarControllerExampleUITests;
 			sourceTree = "<group>";
 		};
+		7F85FAF2295BF9FD0039A7E8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157E12990C911004B6383 /* Service */,
+				7FA157D72990C235004B6383 /* Model */,
+				7F85FB4F2962ADB00039A7E8 /* CheckSelect.png */,
+				7F85FB4E2962ADB00039A7E8 /* CheckSelect@2x.png */,
+				7F85FB4D2962ADB00039A7E8 /* CheckSelect@3x.png */,
+				7F85FB02295C006B0039A7E8 /* splashes.gif */,
+				7F85FAFE295BFCFC0039A7E8 /* LaunchScreenVC */,
+				7F85FAFD295BFCE70039A7E8 /* MainVC */,
+				7FA157E22990C92D004B6383 /* Request.swift */,
+				7FA157E42990C95C004B6383 /* Constant.swift */,
+				7FA157EA2990CE96004B6383 /* QpickDecoder.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7F85FAF4295BFA220039A7E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F376F36295BCFF7001154A7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F85FAFD295BFCE70039A7E8 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157D429908C14004B6383 /* Cell */,
+				7FA157CF298D014D004B6383 /* QPickView */,
+				7F376F34295BCFF7001154A7 /* MyMainTabBarController.swift */,
+				7F85FAEE295BF5150039A7E8 /* HomeVC.swift */,
+				7F85FAF0295BF87C0039A7E8 /* PickCasterVC.swift */,
+				7F85FAF5295BFA9E0039A7E8 /* SnsVC.swift */,
+				7F85FAF7295BFAAF0039A7E8 /* MyPageVC.swift */,
+				7F85FAF9295BFB300039A7E8 /* LatestVC.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		7F85FAFE295BFCFC0039A7E8 /* LaunchScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F376F3B295BCFF8001154A7 /* LaunchScreen.storyboard */,
+				7F85FAFF295BFD1B0039A7E8 /* LaunchScreenVC.swift */,
+			);
+			path = LaunchScreenVC;
+			sourceTree = "<group>";
+		};
+		7F85FB01295C002F0039A7E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7F85FB04295C00740039A7E8 /* loading.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7F85FB06295C03A70039A7E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7F85FB07295C03BA0039A7E8 /* QConstant.swift */,
+				7FA157CD298CF78A004B6383 /* LocationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7F85FB09295C04FA0039A7E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F85FB0A295C050E0039A7E8 /* UI_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7FA157CF298D014D004B6383 /* QPickView */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157D0298D0164004B6383 /* QpickView.swift */,
+			);
+			path = QPickView;
+			sourceTree = "<group>";
+		};
+		7FA157D429908C14004B6383 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157D529908C3E004B6383 /* PickCastQpickCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7FA157D72990C235004B6383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157D82990C247004B6383 /* ViewModel */,
+				7FA157D92990C6B4004B6383 /* PickCastModel.swift */,
+				7FA157EE2990F2E3004B6383 /* PickCastModel2.swift */,
+				7FA157DB2990C75E004B6383 /* PickCastInfo.swift */,
+				7FA157DD2990C862004B6383 /* ImgesFileInfo.swift */,
+				7FA157DF2990C8CE004B6383 /* PickCastInfoList.swift */,
+				7FA157E62990CC6D004B6383 /* ErrorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FA157D82990C247004B6383 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157EC2990D168004B6383 /* PickCastViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FA157E12990C911004B6383 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7FA157E82990CD7D004B6383 /* PickCastService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A3873C27346C95C4C86F20EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5989D2861E55987E3D654F /* Pods_TabBarControllerExample.framework */,
+				CADAAE0B2888E75659E56F6F /* Pods_TabBarControllerExample_TabBarControllerExampleUITests.framework */,
+				3527C64096EC826C9C2B0D46 /* Pods_TabBarControllerExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F376F57295BCFF8001154A7 /* Build configuration list for PBXNativeTarget "TabBarControllerExample" */;
 			buildPhases = (
+				A0ECFB6187B0873D67CC587F /* [CP] Check Pods Manifest.lock */,
 				7F376F29295BCFF7001154A7 /* Sources */,
 				7F376F2A295BCFF7001154A7 /* Frameworks */,
 				7F376F2B295BCFF7001154A7 /* Resources */,
+				0243156A95B0A970E124629B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +370,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F376F5A295BCFF8001154A7 /* Build configuration list for PBXNativeTarget "TabBarControllerExampleTests" */;
 			buildPhases = (
+				DDFC3A0051E07CD6D0DB0F6A /* [CP] Check Pods Manifest.lock */,
 				7F376F3F295BCFF8001154A7 /* Sources */,
 				7F376F40295BCFF8001154A7 /* Frameworks */,
 				7F376F41295BCFF8001154A7 /* Resources */,
@@ -169,9 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F376F5D295BCFF8001154A7 /* Build configuration list for PBXNativeTarget "TabBarControllerExampleUITests" */;
 			buildPhases = (
+				5617D30221FB7F1A4936F260 /* [CP] Check Pods Manifest.lock */,
 				7F376F49295BCFF8001154A7 /* Sources */,
 				7F376F4A295BCFF8001154A7 /* Frameworks */,
 				7F376F4B295BCFF8001154A7 /* Resources */,
+				5F5BC62DEF1F698EE7F1AE2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +453,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F85FB522962ADB00039A7E8 /* CheckSelect.png in Resources */,
 				7F376F3D295BCFF8001154A7 /* LaunchScreen.storyboard in Resources */,
+				7F85FB03295C006B0039A7E8 /* splashes.gif in Resources */,
+				7F85FB05295C00740039A7E8 /* loading.gif in Resources */,
 				7F376F3A295BCFF8001154A7 /* Assets.xcassets in Resources */,
+				7F85FB502962ADB00039A7E8 /* CheckSelect@3x.png in Resources */,
+				7F85FB512962ADB00039A7E8 /* CheckSelect@2x.png in Resources */,
 				7F376F38295BCFF7001154A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +480,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0243156A95B0A970E124629B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample/Pods-TabBarControllerExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample/Pods-TabBarControllerExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample/Pods-TabBarControllerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5617D30221FB7F1A4936F260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarControllerExample-TabBarControllerExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5BC62DEF1F698EE7F1AE2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample-TabBarControllerExampleUITests/Pods-TabBarControllerExample-TabBarControllerExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample-TabBarControllerExampleUITests/Pods-TabBarControllerExample-TabBarControllerExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBarControllerExample-TabBarControllerExampleUITests/Pods-TabBarControllerExample-TabBarControllerExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0ECFB6187B0873D67CC587F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarControllerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFC3A0051E07CD6D0DB0F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarControllerExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F376F29295BCFF7001154A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F376F35295BCFF7001154A7 /* ViewController.swift in Sources */,
+				7FA157ED2990D168004B6383 /* PickCastViewModel.swift in Sources */,
+				7FA157EB2990CE96004B6383 /* QpickDecoder.swift in Sources */,
+				7FA157E72990CC6D004B6383 /* ErrorModel.swift in Sources */,
+				7F376F35295BCFF7001154A7 /* MyMainTabBarController.swift in Sources */,
+				7F85FAF1295BF87C0039A7E8 /* PickCasterVC.swift in Sources */,
+				7F85FAEF295BF5150039A7E8 /* HomeVC.swift in Sources */,
 				7F376F31295BCFF7001154A7 /* AppDelegate.swift in Sources */,
+				7FA157D629908C3E004B6383 /* PickCastQpickCell.swift in Sources */,
+				7F85FB0B295C050E0039A7E8 /* UI_Extension.swift in Sources */,
+				7FA157D1298D0165004B6383 /* QpickView.swift in Sources */,
+				7FA157E52990C95C004B6383 /* Constant.swift in Sources */,
 				7F376F33295BCFF7001154A7 /* SceneDelegate.swift in Sources */,
+				7FA157EF2990F2E3004B6383 /* PickCastModel2.swift in Sources */,
+				7F85FB00295BFD1B0039A7E8 /* LaunchScreenVC.swift in Sources */,
+				7FA157DE2990C862004B6383 /* ImgesFileInfo.swift in Sources */,
+				7F85FAF8295BFAAF0039A7E8 /* MyPageVC.swift in Sources */,
+				7FA157E02990C8CE004B6383 /* PickCastInfoList.swift in Sources */,
+				7FA157E32990C92D004B6383 /* Request.swift in Sources */,
+				7FA157DA2990C6B4004B6383 /* PickCastModel.swift in Sources */,
+				7FA157DC2990C75E004B6383 /* PickCastInfo.swift in Sources */,
+				7FA157CE298CF78A004B6383 /* LocationManager.swift in Sources */,
+				7F85FB08295C03BA0039A7E8 /* QConstant.swift in Sources */,
+				7FA157E92990CD7D004B6383 /* PickCastService.swift in Sources */,
+				7F85FAF6295BFA9E0039A7E8 /* SnsVC.swift in Sources */,
+				7F85FAFA295BFB300039A7E8 /* LatestVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,18 +784,22 @@
 		};
 		7F376F58295BCFF8001154A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDCA981A7AE43169A8A0538 /* Pods-TabBarControllerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TabBarControllerExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +807,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test2.TabBarControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,18 +816,22 @@
 		};
 		7F376F59295BCFF8001154A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D94FD5314EC6D849CE9A983 /* Pods-TabBarControllerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TabBarControllerExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +839,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test2.TabBarControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,6 +848,7 @@
 		};
 		7F376F5B295BCFF8001154A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5644EE3245B5E52CADD6FAD1 /* Pods-TabBarControllerExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +868,7 @@
 		};
 		7F376F5C295BCFF8001154A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C768B3214633D44B30F1844E /* Pods-TabBarControllerExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +888,7 @@
 		};
 		7F376F5E295BCFF8001154A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6B0A6738A6B6A1A917239F /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +906,7 @@
 		};
 		7F376F5F295BCFF8001154A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AD9BACF65796BF1C7B94B7 /* Pods-TabBarControllerExample-TabBarControllerExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
